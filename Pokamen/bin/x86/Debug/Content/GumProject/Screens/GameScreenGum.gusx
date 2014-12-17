@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScreenSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>GameScreenGum</Name>
+  <State>
+    <Name>Default</Name>
+    <Variable>
+      <Type>float</Type>
+      <Name>Background.Height</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>Background.Height Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>Background.SourceFile</Name>
+      <Value xsi:type="xsd:string">Content\GameScreen\Background.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Background.Width</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>DimensionUnitType</Type>
+      <Name>Background.Width Units</Name>
+      <Value xsi:type="xsd:int">2</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Background.X</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>HorizontalAlignment</Type>
+      <Name>Background.X Origin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Background.X Units</Name>
+      <Value xsi:type="xsd:int">6</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>Background.Y</Name>
+      <Value xsi:type="xsd:float">0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>VerticalAlignment</Type>
+      <Name>Background.Y Origin</Name>
+      <Value xsi:type="xsd:int">1</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>Background.Y Units</Name>
+      <Value xsi:type="xsd:int">7</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>EnemyHealthText.Height</Name>
+      <Value xsi:type="xsd:float">23</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>EnemyHealthText.Text</Name>
+      <Value xsi:type="xsd:string">Health: 100</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>EnemyHealthText.X</Name>
+      <Value xsi:type="xsd:float">300</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>EnemyHealthText.Y</Name>
+      <Value xsi:type="xsd:float">81</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>EnemyScoreBack.SourceFile</Name>
+      <Value xsi:type="xsd:string">Content\GameScreen\HealthBack.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>EnemyScoreBack.X</Name>
+      <Value xsi:type="xsd:float">283</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>EnemyScoreBack.Y</Name>
+      <Value xsi:type="xsd:float">58</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>LastEnemyMoveText.Text</Name>
+      <Value xsi:type="xsd:string">Last Enemy Move: Do Nothing</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LastEnemyMoveText.Width</Name>
+      <Value xsi:type="xsd:float">276</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LastEnemyMoveText.X</Name>
+      <Value xsi:type="xsd:float">535</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>LastEnemyMoveText.Y</Name>
+      <Value xsi:type="xsd:float">375</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>MenuBack.SourceFile</Name>
+      <Value xsi:type="xsd:string">Content\GameScreen\MenuBack.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>MenuBack.X</Name>
+      <Value xsi:type="xsd:float">-251</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>MenuBack.X Units</Name>
+      <Value xsi:type="xsd:int">4</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>MenuBack.Y</Name>
+      <Value xsi:type="xsd:float">-194</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>PositionUnitType</Type>
+      <Name>MenuBack.Y Units</Name>
+      <Value xsi:type="xsd:int">5</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerHealthText.Height</Name>
+      <Value xsi:type="xsd:float">22</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>PlayerHealthText.Text</Name>
+      <Value xsi:type="xsd:string">Health: 100</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerHealthText.Width</Name>
+      <Value xsi:type="xsd:float">122</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerHealthText.X</Name>
+      <Value xsi:type="xsd:float">48</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerHealthText.Y</Name>
+      <Value xsi:type="xsd:float">273</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <IsFile>true</IsFile>
+      <Type>string</Type>
+      <Name>PlayerScoreBack.SourceFile</Name>
+      <Value xsi:type="xsd:string">Content\GameScreen\HealthBack.png</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerScoreBack.X</Name>
+      <Value xsi:type="xsd:float">31</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>PlayerScoreBack.Y</Name>
+      <Value xsi:type="xsd:float">251</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ScoreText.Height</Name>
+      <Value xsi:type="xsd:float">31</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>string</Type>
+      <Name>ScoreText.Text</Name>
+      <Value xsi:type="xsd:string">Score: 0</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ScoreText.Width</Name>
+      <Value xsi:type="xsd:float">236</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ScoreText.X</Name>
+      <Value xsi:type="xsd:float">560</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <Variable>
+      <Type>float</Type>
+      <Name>ScoreText.Y</Name>
+      <Value xsi:type="xsd:float">423</Value>
+      <SetsValue>true</SetsValue>
+    </Variable>
+    <VariableList xsi:type="VariableListSaveOfString">
+      <Type>string</Type>
+      <Name>AnimationFrames</Name>
+      <IsFile>false</IsFile>
+      <IsHiddenInPropertyGrid>false</IsHiddenInPropertyGrid>
+      <Value />
+    </VariableList>
+  </State>
+  <Instance>
+    <Name>Background</Name>
+    <BaseType>Sprite</BaseType>
+  </Instance>
+  <Instance>
+    <Name>MenuBack</Name>
+    <BaseType>Sprite</BaseType>
+  </Instance>
+  <Instance>
+    <Name>EnemyScoreBack</Name>
+    <BaseType>Sprite</BaseType>
+  </Instance>
+  <Instance>
+    <Name>PlayerScoreBack</Name>
+    <BaseType>Sprite</BaseType>
+  </Instance>
+  <Instance>
+    <Name>ScoreText</Name>
+    <BaseType>Text</BaseType>
+  </Instance>
+  <Instance>
+    <Name>LastEnemyMoveText</Name>
+    <BaseType>Text</BaseType>
+  </Instance>
+  <Instance>
+    <Name>PlayerHealthText</Name>
+    <BaseType>Text</BaseType>
+  </Instance>
+  <Instance>
+    <Name>EnemyHealthText</Name>
+    <BaseType>Text</BaseType>
+  </Instance>
+</ScreenSave>
