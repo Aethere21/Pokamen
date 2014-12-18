@@ -49,6 +49,7 @@ namespace Pokamen.Screens
 		private PositionedObjectList<Pokamen.Entities.AttackEnemy> AttackEnemyList;
 		private PositionedObjectList<Pokamen.Entities.AttackPlayer> AttackPlayerList;
 		private Pokamen.Entities.CursorEntity CursorEntityInstance;
+		private Pokamen.GumRuntimes.TextRuntime LastEnemyMoveText;
 
 		public GameScreen()
 			: base("GameScreen")
@@ -69,6 +70,7 @@ namespace Pokamen.Screens
 			AttackPlayerList.Name = "AttackPlayerList";
 			CursorEntityInstance = new Pokamen.Entities.CursorEntity(ContentManagerName, false);
 			CursorEntityInstance.Name = "CursorEntityInstance";
+			LastEnemyMoveText = GameScreenGum.GetGraphicalUiElementByName("LastEnemyMoveText") as Pokamen.GumRuntimes.TextRuntime;
 			
 			
 			PostInitialize();
@@ -169,6 +171,10 @@ namespace Pokamen.Screens
 				CursorEntityInstance.Destroy();
 				CursorEntityInstance.Detach();
 			}
+			if (LastEnemyMoveText != null)
+			{
+				LastEnemyMoveText.RemoveFromManagers();
+			}
 			AttackEnemyList.MakeTwoWay();
 			AttackPlayerList.MakeTwoWay();
 
@@ -183,6 +189,78 @@ namespace Pokamen.Screens
 		{
 			bool oldShapeManagerSuppressAdd = FlatRedBall.Math.Geometry.ShapeManager.SuppressAddingOnVisibilityTrue;
 			FlatRedBall.Math.Geometry.ShapeManager.SuppressAddingOnVisibilityTrue = true;
+			if (EnemyInstance.Parent == null)
+			{
+				EnemyInstance.Z = 5f;
+			}
+			else
+			{
+				EnemyInstance.RelativeZ = 5f;
+			}
+			if (EnemyInstance.Parent == null)
+			{
+				EnemyInstance.X = 215f;
+			}
+			else
+			{
+				EnemyInstance.RelativeX = 215f;
+			}
+			if (EnemyInstance.Parent == null)
+			{
+				EnemyInstance.Y = 152f;
+			}
+			else
+			{
+				EnemyInstance.RelativeY = 152f;
+			}
+			if (PlayerInstance.Parent == null)
+			{
+				PlayerInstance.Z = 5f;
+			}
+			else
+			{
+				PlayerInstance.RelativeZ = 5f;
+			}
+			if (PlayerInstance.Parent == null)
+			{
+				PlayerInstance.X = -178f;
+			}
+			else
+			{
+				PlayerInstance.RelativeX = -178f;
+			}
+			if (PlayerInstance.Parent == null)
+			{
+				PlayerInstance.Y = -90f;
+			}
+			else
+			{
+				PlayerInstance.RelativeY = -90f;
+			}
+			if (CursorEntityInstance.Parent == null)
+			{
+				CursorEntityInstance.Z = 5f;
+			}
+			else
+			{
+				CursorEntityInstance.RelativeZ = 5f;
+			}
+			if (CursorEntityInstance.Parent == null)
+			{
+				CursorEntityInstance.X = 175f;
+			}
+			else
+			{
+				CursorEntityInstance.RelativeX = 175f;
+			}
+			if (CursorEntityInstance.Parent == null)
+			{
+				CursorEntityInstance.Y = -177f;
+			}
+			else
+			{
+				CursorEntityInstance.RelativeY = -177f;
+			}
 			FlatRedBall.Math.Geometry.ShapeManager.SuppressAddingOnVisibilityTrue = oldShapeManagerSuppressAdd;
 		}
 		public virtual void AddToManagersBottomUp ()
@@ -203,6 +281,10 @@ namespace Pokamen.Screens
 				AttackPlayerList[i].Destroy();
 			}
 			CursorEntityInstance.RemoveFromManagers();
+			if (LastEnemyMoveText != null)
+			{
+				LastEnemyMoveText.RemoveFromManagers();
+			}
 		}
 		public virtual void AssignCustomVariables (bool callOnContainedElements)
 		{
@@ -211,6 +293,78 @@ namespace Pokamen.Screens
 				EnemyInstance.AssignCustomVariables(true);
 				PlayerInstance.AssignCustomVariables(true);
 				CursorEntityInstance.AssignCustomVariables(true);
+			}
+			if (EnemyInstance.Parent == null)
+			{
+				EnemyInstance.Z = 5f;
+			}
+			else
+			{
+				EnemyInstance.RelativeZ = 5f;
+			}
+			if (EnemyInstance.Parent == null)
+			{
+				EnemyInstance.X = 215f;
+			}
+			else
+			{
+				EnemyInstance.RelativeX = 215f;
+			}
+			if (EnemyInstance.Parent == null)
+			{
+				EnemyInstance.Y = 152f;
+			}
+			else
+			{
+				EnemyInstance.RelativeY = 152f;
+			}
+			if (PlayerInstance.Parent == null)
+			{
+				PlayerInstance.Z = 5f;
+			}
+			else
+			{
+				PlayerInstance.RelativeZ = 5f;
+			}
+			if (PlayerInstance.Parent == null)
+			{
+				PlayerInstance.X = -178f;
+			}
+			else
+			{
+				PlayerInstance.RelativeX = -178f;
+			}
+			if (PlayerInstance.Parent == null)
+			{
+				PlayerInstance.Y = -90f;
+			}
+			else
+			{
+				PlayerInstance.RelativeY = -90f;
+			}
+			if (CursorEntityInstance.Parent == null)
+			{
+				CursorEntityInstance.Z = 5f;
+			}
+			else
+			{
+				CursorEntityInstance.RelativeZ = 5f;
+			}
+			if (CursorEntityInstance.Parent == null)
+			{
+				CursorEntityInstance.X = 175f;
+			}
+			else
+			{
+				CursorEntityInstance.RelativeX = 175f;
+			}
+			if (CursorEntityInstance.Parent == null)
+			{
+				CursorEntityInstance.Y = -177f;
+			}
+			else
+			{
+				CursorEntityInstance.RelativeY = -177f;
 			}
 		}
 		public virtual void ConvertToManuallyUpdated ()

@@ -31,6 +31,21 @@
       </ReferencedFiles>
       <NamedObjects>
         <NamedObjectSave>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>5</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>X</Member>
+            <ValueAsFloat>215</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Y</Member>
+            <ValueAsFloat>152</ValueAsFloat>
+          </CustomProperty>
           <SourceType>Entity</SourceType>
           <SourceClassType>Entities\Enemy</SourceClassType>
           <InstanceName>EnemyInstance</InstanceName>
@@ -38,6 +53,21 @@
           <IndependentOfCamera>true</IndependentOfCamera>
         </NamedObjectSave>
         <NamedObjectSave>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>5</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>X</Member>
+            <ValueAsFloat>-178</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Y</Member>
+            <ValueAsFloat>-90</ValueAsFloat>
+          </CustomProperty>
           <SourceType>Entity</SourceType>
           <SourceClassType>Entities\Player</SourceClassType>
           <InstanceName>PlayerInstance</InstanceName>
@@ -61,9 +91,32 @@
           <IndependentOfCamera>true</IndependentOfCamera>
         </NamedObjectSave>
         <NamedObjectSave>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>5</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>X</Member>
+            <ValueAsFloat>175</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Y</Member>
+            <ValueAsFloat>-177</ValueAsFloat>
+          </CustomProperty>
           <SourceType>Entity</SourceType>
           <SourceClassType>Entities\CursorEntity</SourceClassType>
           <InstanceName>CursorEntityInstance</InstanceName>
+          <AttachToContainer>true</AttachToContainer>
+          <IndependentOfCamera>true</IndependentOfCamera>
+        </NamedObjectSave>
+        <NamedObjectSave>
+          <SourceType>File</SourceType>
+          <SourceFile>GumProject/Screens/GameScreenGum.gusx</SourceFile>
+          <SourceName>LastEnemyMoveText (Pokamen.GumRuntimes.TextRuntime)</SourceName>
+          <InstanceName>LastEnemyMoveText</InstanceName>
           <AttachToContainer>true</AttachToContainer>
           <IndependentOfCamera>true</IndependentOfCamera>
         </NamedObjectSave>
@@ -121,12 +174,12 @@
           <CustomProperty>
             <Type>float</Type>
             <Member>Height</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>64</ValueAsFloat>
           </CustomProperty>
           <CustomProperty>
             <Type>float</Type>
             <Member>Width</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>64</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -139,14 +192,19 @@
         </NamedObjectSave>
         <NamedObjectSave>
           <CustomProperty>
+            <Type>Texture2D</Type>
+            <Member>Texture</Member>
+            <ValueAsString>EnemyAttackTexture</ValueAsString>
+          </CustomProperty>
+          <CustomProperty>
             <Type>float</Type>
             <Member>TextureScale</Member>
             <ValueAsFloat>1</ValueAsFloat>
           </CustomProperty>
           <CustomProperty>
-            <Type>Texture2D</Type>
-            <Member>Texture</Member>
-            <ValueAsString>EnemyAttackTexture</ValueAsString>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>6</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -210,12 +268,12 @@
           <CustomProperty>
             <Type>float</Type>
             <Member>Height</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>64</ValueAsFloat>
           </CustomProperty>
           <CustomProperty>
             <Type>float</Type>
             <Member>Width</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>64</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -228,14 +286,19 @@
         </NamedObjectSave>
         <NamedObjectSave>
           <CustomProperty>
+            <Type>Texture2D</Type>
+            <Member>Texture</Member>
+            <ValueAsString>PlayerAttackTexture</ValueAsString>
+          </CustomProperty>
+          <CustomProperty>
             <Type>float</Type>
             <Member>TextureScale</Member>
             <ValueAsFloat>1</ValueAsFloat>
           </CustomProperty>
           <CustomProperty>
-            <Type>Texture2D</Type>
-            <Member>Texture</Member>
-            <ValueAsString>PlayerAttackTexture</ValueAsString>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>6</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -367,12 +430,12 @@
           <CustomProperty>
             <Type>float</Type>
             <Member>Height</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>72</ValueAsFloat>
           </CustomProperty>
           <CustomProperty>
             <Type>float</Type>
             <Member>Width</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>84</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -393,6 +456,11 @@
             <Type>float</Type>
             <Member>TextureScale</Member>
             <ValueAsFloat>1</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>5</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -455,12 +523,22 @@
           <CustomProperty>
             <Type>float</Type>
             <Member>Height</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>100</ValueAsFloat>
           </CustomProperty>
           <CustomProperty>
             <Type>float</Type>
             <Member>Width</Member>
-            <ValueAsFloat>32</ValueAsFloat>
+            <ValueAsFloat>75</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>Color</Type>
+            <Member>Color</Member>
+            <ValueAsString>Red</ValueAsString>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>bool</Type>
+            <Member>Visible</Member>
+            <ValueAsBool>true</ValueAsBool>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />
@@ -481,6 +559,11 @@
             <Type>float</Type>
             <Member>TextureScale</Member>
             <ValueAsFloat>1</ValueAsFloat>
+          </CustomProperty>
+          <CustomProperty>
+            <Type>float</Type>
+            <Member>Z</Member>
+            <ValueAsFloat>5</ValueAsFloat>
           </CustomProperty>
           <SourceType>FlatRedBallType</SourceType>
           <SourceFile />

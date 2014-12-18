@@ -1,3 +1,8 @@
+Content\Entities\AttackEnemy\EnemyAttackTexture.png
+Content\Entities\AttackPlayer\PlayerAttackTexture.png
+Content\Entities\CursorEntity\CursorTexture.png
+Content\Entities\Enemy\EnemyTexture.png
+Content\Entities\Player\PlayerTexture.png
 Content\GumProject\Content\GameScreen\Background.png
 Content\GumProject\Content\GameScreen\HealthBack.png
 Content\GumProject\content\gamescreen\menuback.png

@@ -32,3 +32,8 @@ C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debu
 C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debug\FlatRedBall.xml
 C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\obj\x86\Debug\Pokamen.exe
 C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\obj\x86\Debug\Pokamen.pdb
+C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debug\Content\Entities\AttackEnemy\EnemyAttackTexture.png
+C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debug\Content\Entities\AttackPlayer\PlayerAttackTexture.png
+C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debug\Content\Entities\CursorEntity\CursorTexture.png
+C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debug\Content\Entities\Enemy\EnemyTexture.png
+C:\Users\Hell\Documents\FlatRedBallProjects\Pokamen\Pokamen\Pokamen\bin\x86\Debug\Content\Entities\Player\PlayerTexture.png

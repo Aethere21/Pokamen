@@ -166,8 +166,10 @@ namespace Pokamen.Entities
 				mCollision.CopyAbsoluteToRelative();
 				mCollision.AttachTo(this, false);
 			}
-			Collision.Height = 32f;
-			Collision.Width = 32f;
+			Collision.Height = 100f;
+			Collision.Width = 75f;
+			Collision.Color = Color.Red;
+			Collision.Visible = true;
 			if (Sprite.Parent == null)
 			{
 				Sprite.CopyAbsoluteToRelative();
@@ -175,6 +177,14 @@ namespace Pokamen.Entities
 			}
 			Sprite.Texture = PlayerTexture;
 			Sprite.TextureScale = 1f;
+			if (Sprite.Parent == null)
+			{
+				Sprite.Z = 5f;
+			}
+			else
+			{
+				Sprite.RelativeZ = 5f;
+			}
 			FlatRedBall.Math.Geometry.ShapeManager.SuppressAddingOnVisibilityTrue = oldShapeManagerSuppressAdd;
 		}
 		public virtual void AddToManagersBottomUp (Layer layerToAddTo)
@@ -198,10 +208,20 @@ namespace Pokamen.Entities
 			if (callOnContainedElements)
 			{
 			}
-			mCollision.Height = 32f;
-			mCollision.Width = 32f;
+			mCollision.Height = 100f;
+			mCollision.Width = 75f;
+			mCollision.Color = Color.Red;
+			mCollision.Visible = true;
 			Sprite.Texture = PlayerTexture;
 			Sprite.TextureScale = 1f;
+			if (Sprite.Parent == null)
+			{
+				Sprite.Z = 5f;
+			}
+			else
+			{
+				Sprite.RelativeZ = 5f;
+			}
 		}
 		public virtual void ConvertToManuallyUpdated ()
 		{

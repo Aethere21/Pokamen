@@ -30,7 +30,9 @@ namespace Pokamen.Entities
 	{
 		private void CustomInitialize()
 		{
-
+            //Set player defending to false and player health to 100 on start
+            GlobalVariables.EntityInfo.PlayerHealth = 100;
+            GlobalVariables.EntityInfo.PlayerDefending = false;
 
 		}
 
